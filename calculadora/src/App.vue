@@ -1,10 +1,21 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    
+    <Numeros>
+
+    </Numeros>
   </nav>
-  <router-view/>
+  
 </template>
+<script>
+import Numeros from './components/Numeros'
+export default{
+  name: "App",
+  components:{
+    Numeros,
+  }
+}
+</script>
 
 <style>
 #app {
