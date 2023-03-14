@@ -1,10 +1,6 @@
 <template>
-  <nav>
-    
     <Numeros>
-
     </Numeros>
-  </nav>
   
 </template>
 <script>
